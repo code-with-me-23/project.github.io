@@ -1,0 +1,164 @@
+
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.nav-links a{
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+/* Colorful Fluid Animation */
+.nav-links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ff416c, #ffcc00, #ff9800, #ff4b2b);
+    transition: all 0.4s ease-in-out;
+    border-radius: 50px;
+}
+
+.nav-links a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Nav Icons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+/* Mobile Menu (Hidden by Default) */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        color: white;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+   
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    position: fixed;  /* इसे top पर fix करने के लिए */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000; /* Navbar को सबसे ऊपर रखने के लिए */
+}
+
+
+body {
+    padding-top: 70px; /* Navbar की ऊंचाई के बराबर सेट करें */
+}
+
+
+.mainSEction img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0; /* Extra margin हटाएं */
+}
+
+
+.sale-section {
+    margin-top: 20px; /* Navbar और content में gap लाने के लिए */
+}
+
+
+.navbar {
+    height: 60px; /* सही height सेट करें */
+    padding: 10px 20px; /* अंदरूनी spacing ठीक करें */
+}
+
+
+

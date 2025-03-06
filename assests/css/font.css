@@ -1,0 +1,61 @@
+
+.title {
+    font-family: "Libre Baskerville", serif;
+    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Roboto Slab", serif; */
+}
+.product-item ,.product{
+    font-family: "Roboto Slab", serif;
+    /* font-family: "Libre Baskerville", serif; */
+    /* font-family: "Grechen Fuemen", serif; */
+    /* font-family: "Atkinson Hyperlegible Next", serif; */
+}
+.hero1{
+        font-family: "Atkinson Hyperlegible Next", serif;
+}
+.features1 ,.footer1 ,.footer ,a{
+    font-family: "Grechen Fuemen", serif;
+}
+h1 ,h2 ,h4,p {
+    font-family: "Atkinson Hyperlegible Next", serif;
+}
+a{
+    font-family:inherit;
+}
+
+
+
+/* .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+    padding-top: 20px;
+  }
+  .navbar {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+
+  }
+  body{
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
+
+   */

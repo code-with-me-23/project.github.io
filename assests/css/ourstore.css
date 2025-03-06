@@ -1,0 +1,413 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  /* text-decoration: none; */
+
+}
+
+
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.cart {
+  position: relative;
+  margin-right: 1.5rem;
+}
+
+.cart img {
+  width: 20px;
+  height: 20px;
+}
+  .container1 {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    font-family: "Atkinson Hyperlegible Mono", serif;
+  }
+  
+  .title {
+    font-size:70px;
+    color: #5a5a3c;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    }
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.vedio-container{
+  /* width: 100%; */
+  /* max-width: 1200px; */
+  /* height: 600px; */
+  display: flex;
+  justify-content: center;
+}
+
+#vedioPUITT{
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+}
+
+.pattriON{
+  display: flex;
+  justify-content:left ;
+  flex-direction: column;
+  text-align: left;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.features div {
+    flex: 1;
+    margin: 10px;
+}
+
+.features img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoe-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+  .shoe-section1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .text-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-header p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    flex-wrap: wrap;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+  }
+  
+  .text-info {
+    width: 30%;
+  }
+  
+  .info-box {
+    margin-bottom: 20px;
+  }
+  
+  .info-box .number {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f9a825;
+    margin-bottom: 5px;
+  }
+  
+  .info-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .info-box p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .shoe-image-container {
+    position: relative;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .shoe-image {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .highlight {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f9a825;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .highlight span {
+    display: inline-block;
+  }
+  
+  .highlight-1 {
+    top: 10%;
+    left: 15%;
+  }
+  
+  .highlight-2 {
+    bottom: 15%;
+    left: 20%;
+  }
+  
+  .highlight-3 {
+    top: 30%;
+    right: 30%;
+  }
+  
+  .highlight-4 {
+    bottom: 20%;
+    right: 15%;
+  }
+  .mission-vision {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap;
+    gap: 60px; */
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.8;
+    max-width: 600px;
+  }
+  .hero1 {
+    position: relative;
+    background: url('../image/recycled-shoe-store-cta-image-bg.jpg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    font-family: "Grechen Fuemen", serif;
+
+}
+.hero1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero1 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.hero1 .buttons1 {
+    display: flex;
+    gap: 10px;
+}
+.shop-now:hover {
+    background-color: #0b0b0b;
+    color: #fff;
+  }
+
+.hero1 button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+.features1 div {
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer1 {
+    background-color: #f2f2f2;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Libre Baskerville", serif;
+
+}
+.footer1 div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer1 h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.footer1 ul {
+    list-style: none;
+    padding: 0;
+}
+.footer1 ul li {
+    margin-bottom: 5px;
+}
+.footer1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer1 .social-icons1 {
+    display: flex;
+    gap: 10px;
+}
+.footer1 .social-icons1 a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+h3{
+  font-family: "Atkinson Hyperlegible Mono", serif;
+}
+
+
+@media (max-width: 767px) {
+  
+  .content{
+    flex-direction: column-reverse;
+  }
+  .section{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+}
